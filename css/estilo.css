@@ -51,7 +51,9 @@ section div ul{
 section div ul li{
   margin-right: 50px;
 }
-section div ul li h3{
+section div ul li span{
+  text-align: center;
+  font-size: 1.5em;
   font-weight: 700;
   color: #fff;
 }
