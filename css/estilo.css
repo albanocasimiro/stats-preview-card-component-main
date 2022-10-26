@@ -7,7 +7,9 @@
 }
 
 /*formatando o main*/
-
+body {
+  background-color: hsl(233, 47%, 7%);
+}
 main{
   width: 90%;
   height: 550px;
@@ -15,7 +17,6 @@ main{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: hsl(233, 47%, 7%);
 }
 section{
   display: flex;
@@ -69,6 +70,9 @@ section div ul li h3{
   position: relative;
   border-top-right-radius: 5px; 
 }
+.imagem img{
+  width: 400px;
+}
 .outros{
   position: absolute;
   width: 100%;
@@ -76,6 +80,7 @@ section div ul li h3{
   background-color: hsla(277, 95%, 26%, 0.5);
 }
 .attribution{
+  color: #fff;
   padding: 0 10px;
   display: flex;
   justify-content: center;
